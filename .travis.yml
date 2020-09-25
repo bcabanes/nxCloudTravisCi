@@ -16,3 +16,4 @@ script:
   - echo "$NX_BRANCH"
   - echo "$NX_RUN_GROUP"
   - yarn nx affected:test --scan
+  - node tools/env-test.js
